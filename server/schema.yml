@@ -1,0 +1,45 @@
+components:
+  schemas:
+    Profile:
+      type: object
+      properties:
+        wantedJobTitle:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+        email:
+          type: string
+        phone:
+          type: string
+        country:
+          type: string
+        city:
+          type: string
+        address:
+          type: string
+        postalCode:
+          type: integer
+        drivingLicense:
+          type: string
+        nationality:
+          type: string
+        placeOfBirth:
+          type: string
+        dateOfBirth:
+          type: string
+      example:
+        wantedJobTitle: Designer
+        firstName: John
+        lastName: Doe
+        email: johndoe@gmail.com
+        phone: "08888888"
+        country: DKI Jakarta
+        city: Jakarta Selatan
+        address: Jl. Damai Raya, RT.1/RW.1, Pd. Labu, Kec. Cilandak
+        postalCode: 12450
+        drivingLicense: "123456789"
+        nationality: Indonesia
+        placeOfBirth: Surabaya
+        dateOfBirth: 12-04-1945
